@@ -1,0 +1,30 @@
+Date_reported: The date that data is reported.
+Country_code: The Code of the country.
+Country: The country name.
+WHO_region: The WHO_region that the country belongs to.
+New_cases: The daily new cases.
+Cumulative_cases: The cumulative cases
+New_deaths: The daily deaths
+Cumulative_deaths: The cumulative deaths
+Population: The population of different countries, count in 1 million.
+% of new_cases: % of the daily new cases divided by population. Formula: New_cases/Total Population * 100%
+% of cumulative_cases: % of the cumulative cases divided by population. Formula: Cumulative_cases/Total Population * 100%
+% of new_deaths: % of the daily new deaths divided by population. Formula: New_deaths/Total Population * 100%
+% of Cumulative_cases: % of the cumulative cases divided by population. Formula: Cumulative_deaths/Total Population * 100%
+mandatory: Dummy variable, indicate that if the country's early policy toward COVID-19 is mandatory. 1 if is mandatory, 0 otherwise. (Mandatory Defination: Strictly control COVID-19, mandatory wear masks, test the temperature, control the flows)
+optional: Dummy variable, indicate that if the country's early policy toward COVID-19 is optional. 1 if is Optional, 0 otherwise. (Optional Defination: Some policies control COVID-19, optional wear masks, test the temperature, control the flows)
+nocontrol: Dummy variable, indicate that if the country's early policy toward COVID-19 is totally no control. 1 if is no control, 0 otherwise. (Nocontrol Defination: no control COVID-19, no control to wear masks, test the temperature, control the flows)
+populationdummy_1: Dummy variable, indicate that if the country's population exceed 100 million.
+populationdummy_2: Dummy variable, indicate that if the country's population exceed 1 billion.
+populationdummy_3: Dummy variable, indicate that if the country's population exceed 50 million.
+after: Indicates after-treatment, 1 is after, 0 otherwise
+hopital: Indicates the hospital numbers within the country at the end of 2019.
+hospital bed: Indicates the hospital beds numbers within the country at the end of 2019
+Canada: Dummy variable, indicates if the country is Canada.
+China: same as above
+India: same as above
+Japan: same as above
+UK: same as above
+US: same as above
+
+在同一时间after是相同的？
