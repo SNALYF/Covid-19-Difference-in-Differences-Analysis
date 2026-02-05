@@ -1,4 +1,4 @@
-# Empirical Project 114 - COVID-19 Policy Analysis Pipeline
+# COVID-19 Policy Analysis Pipeline
 
 This project implements a Difference-in-Differences (DiD) analysis to evaluate the impact of different COVID-19 policy responses (Mandatory vs. Optional vs. No Control) on infection and death rates across multiple countries.
 
